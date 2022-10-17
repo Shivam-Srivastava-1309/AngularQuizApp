@@ -107,6 +107,8 @@ export class QuestionComponent implements OnInit {
     this.points=0;
     this.counter=60;
     this.currentQuestion=0;
+    this.correctAnswer=0;
+    this.inCorrectAnswer=0;
     this.progress="0";
 
   }
